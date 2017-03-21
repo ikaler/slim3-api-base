@@ -1,0 +1,10 @@
+vendor/
+log/*
+cache/*
+
+### macOS ###
+*.DS_Store
+
+### SublimeText ###
+*.sublime-workspace
+*.sublime-project
