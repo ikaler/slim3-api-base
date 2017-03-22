@@ -4,9 +4,9 @@ This is a base project for RESTful api based on Slim 3 framework.
 
 ## Create project:
 
-    $ composer create-project --no-interaction --stability=dev ikaler/slim3-api-base [my-slim-api]
+    $ composer create-project --no-interaction --stability=dev ikaler/slim3-api-base my-slim-api
 
-Replace [my-slim-api] with the desired directory name for your new application. You'll want to:
+Replace `my-slim-api` with the desired directory name for your new application. You'll want to:
 
 ## Configure
 
