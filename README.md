@@ -2,10 +2,14 @@
 
 This is a base project for RESTful api based on Slim 3 framework.
 
+## Create project:
+
+    $ composer create-project --no-interaction --stability=dev ikaler/slim3-api-base slim-api
+
 ## Configure
 
 1. `$ cd slim-api`
-2. `$ cp app/config_default.php config.php`
+2. `$ cp app/config_default.php app/config.php`
 3. `$ touch logs/app.log`
 
 ## Directories

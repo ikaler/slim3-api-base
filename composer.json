@@ -1,6 +1,15 @@
 {
-    "name": "SlimApi",
-    "description": "Restful api for apps using Slim Framework 3.",
+    "name": "ikaler/slim3-api-base",
+    "description": "Slim 3 based Restful api base project.",
+    "keywords": ["api","slim api","slim 3 api","restful api"],
+    "homepage": "https://github.com/ikaler/slim3-api-base",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Inderjeet Kaler",
+            "role": "Developer"
+        }
+    ],
 
     "autoload": {
         "psr-4": {
