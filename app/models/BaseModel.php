@@ -13,16 +13,29 @@ namespace App\Models;
 
 use \Interop\Container\ContainerInterface as ContainerInterface;
 
+/**
+ * Base model class
+ */
 class BaseModel
 {
     protected $container;
 
-    // constructor receives container instance
+    /**
+     * Base Model receives container instance
+     * 
+     * @param ContainerInterface $container
+     */
     public function __construct(ContainerInterface $container)
     {
         $this->container = $container;
     }
 
+    /**
+     * PHP magic method to return object property
+     * 
+     * @param  any $property
+     * @return any 
+     */
     public function __get($property)
     {
         if ($this->container->{$property}) {

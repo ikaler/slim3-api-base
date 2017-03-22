@@ -60,7 +60,7 @@ class UserModel extends BaseModel
         $res = array();
     
         if ($this->dbConn) {
-            try {
+            //try {
                 $sql = 'SELECT * FROM users WHERE email=:email';
 
                 $stmt = $this->dbConn->prepare($sql);
@@ -68,9 +68,9 @@ class UserModel extends BaseModel
                 
                 $stmt->execute();
                 $res = $stmt->fetch(\PDO::FETCH_ASSOC);
-            } catch (\PDOException $e) {
+            //} catch (\PDOException $e) {
                 $this->logger->error(__CLASS__ . "->" . __FUNCTION__ . " Query: ". $stmt->queryString, array('exception' => $e));
-            }
+            //}
         }
         
         return $res;

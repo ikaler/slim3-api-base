@@ -16,14 +16,16 @@ use \Psr\Http\Message\ResponseInterface as Response;
 use App\Models\UserModel as UserModel;
 
 /**
- * 
+ * User Controller class
  */
 class UserController extends BaseController
 {
     /**
+     * index method returning all user
+     * 
      * @param  Request $request
      * @param  Response $response
-     * @return Response json response
+     * @return Response Json response
      */
     public function index(Request $request, Response $response)
     {
@@ -34,6 +36,13 @@ class UserController extends BaseController
         return $response->withJson($data);
     }
 
+    /**
+     * This method returns user details from user id
+     * 
+     * @param  Request  $request
+     * @param  Response $response
+     * @return Response Json response
+     */
     public function userById(Request $request, Response $response) {
         $id = $request->getAttribute('id');
         
@@ -44,6 +53,13 @@ class UserController extends BaseController
         return $response->withJson($data);
     }
 
+    /**
+     * This methods return user data from email
+     * 
+     * @param  Request  $request
+     * @param  Response $response
+     * @return Response Json response
+     */
     public function userByEmail(Request $request, Response $response) {
         $email = $request->getAttribute('email');
         

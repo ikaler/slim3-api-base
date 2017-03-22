@@ -1,0 +1,10 @@
+[2017-03-22 10:51:45] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"728d036"}
+[2017-03-22 10:51:52] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"8887396"}
+[2017-03-22 10:51:55] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"b38cb1b"}
+[2017-03-22 10:52:08] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"b447125"}
+[2017-03-22 10:52:08] slimapi.ERROR: App\Models\UserModel->fetchByEmail Query: SELECT * FROM user WHERE email=:email {"exception":"[object] (PDOException(code: 42S02): SQLSTATE[42S02]: Base table or view not found: 1146 Table 'slimapi.user' doesn't exist at /Users/Inder/Projects/workspace/slimapi/app/Models/UserModel.php:69)"} {"uid":"b447125"}
+[2017-03-22 10:52:50] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"5c37991"}
+[2017-03-22 10:54:25] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"b0cc438"}
+[2017-03-22 10:57:24] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"438bbe7"}
+[2017-03-22 10:58:09] slimapi.INFO: Show user by email {"email":"inderjeet@gmail.com"} {"uid":"6908113"}
+[2017-03-22 10:58:09] slimapi.ERROR: App\Models\UserModel->fetchByEmail Query: SELECT * FROM users WHERE email=:email {"exception":null} {"uid":"6908113"}

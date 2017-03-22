@@ -13,6 +13,9 @@ namespace App\Services;
 
 use \Interop\Container\ContainerInterface as ContainerInterface;
 
+/**
+ * Database connection class
+ */
 class DatabaseService
 {
     protected $container;
@@ -51,6 +54,12 @@ class DatabaseService
         }
     }
     
+    /**
+     * Static instance method
+     * 
+     * @param  ContainerInterface $container
+     * @return self
+     */
     public static function getConnection(ContainerInterface $container) {
         //Guarantees single instance
         if (!self::$conn) {
