@@ -8,11 +8,12 @@ This is a base project for RESTful api based on Slim 3 framework.
 
 Replace `my-slim-api` with the desired directory name for your new application. You'll want to:
 
-## Configure
+## Configure project:
 
 1. `$ cd my-slim-api` or the name you provided above
 2. `$ cp app/config_default.php app/config.php`
-3. `$ touch logs/app.log`
+3. `$ mkdir logs`
+4. `$ touch logs/app.log`
 
 ## Directories
 
