@@ -1,10 +1,6 @@
 # slim3-api-base (Slim 3 API base project)
 
-This is a base restful api project based on Slim 3 framework.
-
-## Create project:
-
-    $ composer create-project --no-interaction ikaler/slim3-api-base slim-api
+This is a base project for RESTful api based on Slim 3 framework.
 
 ## Configure
 
