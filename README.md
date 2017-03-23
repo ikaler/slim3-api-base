@@ -1,4 +1,4 @@
-# slim3-api-base (Slim 3 API base project)
+# Slim 3 RESTful api base project (slim3-api-base)
 
 This is a base project for RESTful api based on Slim 3 framework.
 
